@@ -217,6 +217,12 @@ public class Collisions : MonoBehaviour
         }
     }
 
+    void Flip(bool face)
+    {
+        //if(face) sideBoxPos.x = Mathf.Abs(sideBoxPos.ps);
+        //else()
+    }
+
     private void OnDrawGizmosSelected() //Aparecerá el gizmo solo cuando lo selecionamos
     {
         Vector2 pos = this.transform.position;
