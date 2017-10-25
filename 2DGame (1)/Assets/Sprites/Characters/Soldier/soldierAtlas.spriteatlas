@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: soldierAtlas
+  m_EditorData:
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 0
+    platformSettings: []
+    packingParameters:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    packedHash:
+      serializedVersion: 2
+      Hash: 8c80857e009ff1aced09c5caac127b5d
+    variantMultiplier: 1
+    bindAsDefault: 1
+    finalFormat: 4
+    hashString: 8c80857e009ff1aced09c5caac127b5d
+    totalSpriteSurfaceArea: 211200
+    packables:
+    - {fileID: 102900000, guid: cdfd00f6903502846b3d885ea7ef8c2b, type: 3}
+    packedSpriteRenderDataKeys:
+    - cf59a54acca61834f996e7b4578ead44: 21300000
+    - ec016201195bc7e4ca3aba510a8ad6ca: 21300000
+    - cffa8cb4f6c84eb4ca09e9a6bd4e7c71: 21300000
+    - 13ccd8f2d58672446b133f4e5148d129: 21300000
+    - def398ec753abf64b833f8f7e3c481d1: 21300000
+    - 3526a1eff65b95d4bb44f58e74f007ed: 21300000
+    - baa1d290abef57243b4edfb49a982d33: 21300000
+    - 07c016b205919704aac8cd25ba170537: 21300000
+    - f5a34647548cc964a8f65bad185defa5: 21300000
+    - 159b8da7ae2a99b43928bab01c22c490: 21300000
+    - 03b0b2c03bb542a47b72e66f96143d9a: 21300000
+    - a26bb99ce57bb6d48ba441faaed6629b: 21300000
+    - cbd126ef7bd824e468b6fe1913d4fb5d: 21300000
+    - 069e423503faa4d479c28bb92a7811c6: 21300000
+    - 5ce1b3f98f03fbf4fa8c23444ea34999: 21300000
+    - 9fc5dddf5e733f94183d0982060b2f70: 21300000
+    - 1af170d81a7ebdb4fbe28827e126b08e: 21300000
+    - 110231b19a3895d43901be2a49fc1bd1: 21300000
+    - bd135ece165aa514087140c902b73cef: 21300000
+    - b64ea3af49113ca45a83fc0d4672d4b8: 21300000
+    - 7d84e72d9085a5a43a145958b8c51a25: 21300000
+    - 4752022d6d91dd445a830fdad6f3a281: 21300000
+    - be8a53c9e0621aa4da8baf7e5ece0502: 21300000
+    - e70054600b7b67644a1350e00f0d8b6d: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: cf59a54acca61834f996e7b4578ead44, type: 3}
+  - {fileID: 21300000, guid: ec016201195bc7e4ca3aba510a8ad6ca, type: 3}
+  - {fileID: 21300000, guid: cffa8cb4f6c84eb4ca09e9a6bd4e7c71, type: 3}
+  - {fileID: 21300000, guid: 13ccd8f2d58672446b133f4e5148d129, type: 3}
+  - {fileID: 21300000, guid: def398ec753abf64b833f8f7e3c481d1, type: 3}
+  - {fileID: 21300000, guid: 3526a1eff65b95d4bb44f58e74f007ed, type: 3}
+  - {fileID: 21300000, guid: baa1d290abef57243b4edfb49a982d33, type: 3}
+  - {fileID: 21300000, guid: 07c016b205919704aac8cd25ba170537, type: 3}
+  - {fileID: 21300000, guid: f5a34647548cc964a8f65bad185defa5, type: 3}
+  - {fileID: 21300000, guid: 159b8da7ae2a99b43928bab01c22c490, type: 3}
+  - {fileID: 21300000, guid: 03b0b2c03bb542a47b72e66f96143d9a, type: 3}
+  - {fileID: 21300000, guid: a26bb99ce57bb6d48ba441faaed6629b, type: 3}
+  - {fileID: 21300000, guid: cbd126ef7bd824e468b6fe1913d4fb5d, type: 3}
+  - {fileID: 21300000, guid: 069e423503faa4d479c28bb92a7811c6, type: 3}
+  - {fileID: 21300000, guid: 5ce1b3f98f03fbf4fa8c23444ea34999, type: 3}
+  - {fileID: 21300000, guid: 9fc5dddf5e733f94183d0982060b2f70, type: 3}
+  - {fileID: 21300000, guid: 1af170d81a7ebdb4fbe28827e126b08e, type: 3}
+  - {fileID: 21300000, guid: 110231b19a3895d43901be2a49fc1bd1, type: 3}
+  - {fileID: 21300000, guid: bd135ece165aa514087140c902b73cef, type: 3}
+  - {fileID: 21300000, guid: b64ea3af49113ca45a83fc0d4672d4b8, type: 3}
+  - {fileID: 21300000, guid: 7d84e72d9085a5a43a145958b8c51a25, type: 3}
+  - {fileID: 21300000, guid: 4752022d6d91dd445a830fdad6f3a281, type: 3}
+  - {fileID: 21300000, guid: be8a53c9e0621aa4da8baf7e5ece0502, type: 3}
+  - {fileID: 21300000, guid: e70054600b7b67644a1350e00f0d8b6d, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - soldier_climb2
+  - soldier_climb1
+  - soldier_action1
+  - soldier_action2
+  - soldier_hang
+  - soldier_hold2
+  - soldier_hold1
+  - soldier_fall
+  - soldier_kick
+  - soldier_stand
+  - soldier_talk
+  - soldier_swim2
+  - soldier_swim1
+  - soldier_slide
+  - soldier_hurt
+  - soldier_duck
+  - soldier_jump
+  - soldier_skid
+  - soldier_back
+  - soldier_walk2
+  - soldier_walk1
+  - soldier_idle
+  - soldier_cheer2
+  - soldier_cheer1
+  m_Tag: soldierAtlas
+  m_IsVariant: 0
