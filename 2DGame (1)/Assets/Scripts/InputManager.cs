@@ -40,13 +40,13 @@ public class InputManager : MonoBehaviour
 
     void InputJump()
     {
-        //if(Input.GetButtonDown("Jump")) player.JumpStart();
+        if(Input.GetButtonDown("Jump")) player.JumpStart();
     }
 
     void InputSpeed()
     {
-        //if(Input.GetButtonDown("Run")) player.running = true;
-        //else if(Input.GetButtonUp("Run")) player.running = false;
+        if(Input.GetButtonDown("Run")) player.running = true;
+        else if(Input.GetButtonUp("Run")) player.running = false;
     }
     #endregion
 }

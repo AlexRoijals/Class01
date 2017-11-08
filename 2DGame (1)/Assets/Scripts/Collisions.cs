@@ -75,6 +75,11 @@ public class Collisions : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
+    public void MyStart()
+    {
+
+    }
+
     void ResetState()
     {
         // Ground
@@ -160,7 +165,12 @@ public class Collisions : MonoBehaviour
         rb.velocity = new Vector2(axis, rb.velocity.y);
     }
 
-    void Flip()
+    public void MyFixedUpdate()
+    {
+
+    }
+
+    public void Flip()
     {
         Vector2 newScale = meshTransform.localScale;
         newScale.x *= -1;
