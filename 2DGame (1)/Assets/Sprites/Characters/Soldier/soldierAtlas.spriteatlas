@@ -28,11 +28,11 @@ SpriteAtlas:
       enableTightPacking: 1
     packedHash:
       serializedVersion: 2
-      Hash: 8c80857e009ff1aced09c5caac127b5d
+      Hash: b05d8f8ae9119a67e53fc5e773fae1ec
     variantMultiplier: 1
     bindAsDefault: 1
     finalFormat: 4
-    hashString: 8c80857e009ff1aced09c5caac127b5d
+    hashString: b05d8f8ae9119a67e53fc5e773fae1ec
     totalSpriteSurfaceArea: 211200
     packables:
     - {fileID: 102900000, guid: cdfd00f6903502846b3d885ea7ef8c2b, type: 3}

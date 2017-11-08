@@ -33,10 +33,14 @@ public class PlayerBehaviour : MonoBehaviour
     //public Transform flipTransform;
     [Header("Graphics")]
     public SpriteRenderer rend;
+    public Animator anim;
+
     void Start ()
     {
         collisions = GetComponent<Collisions>();
         rb = GetComponent<Rigidbody2D>();
+
+        anim = GetComponent<Animator>();
 
         collisions.MyStart();
 
@@ -65,6 +69,12 @@ public class PlayerBehaviour : MonoBehaviour
         //Calcule el movimiento en horizontal
         HorizontalMovement();
         //Saltar
+
+        //Animaciones
+        anim.SetBool("IsGrounded", collisions.isGrounded);
+        anim.SetFloat("SpeedX", Mathf.Abs(rb.velocity.x));
+        anim.SetFloat("SpeedY", rb.velocity.y);
+
     }
 
     private void FixedUpdate()

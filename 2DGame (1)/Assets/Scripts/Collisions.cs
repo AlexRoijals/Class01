@@ -24,7 +24,7 @@ public class Collisions : MonoBehaviour
     [HideInInspector] public bool wasTouchingWall;
 
     public Transform meshTransform;
-    public bool facingRight;
+    public bool facingRight = true;
 
     // Physics -----------------------
     private Rigidbody2D rb;
@@ -122,8 +122,8 @@ public class Collisions : MonoBehaviour
         }
         else speed = SpeedWalk;
 
-        if(axis > 0 && !facingRight) Flip();
-        else if(axis < 0 && facingRight) Flip();
+        if(axis > 0 && !facingRight) Flip(true);
+        else if(axis < 0 && facingRight) Flip(false);
 
         // Jump 
         if(Input.GetButtonDown("Jump"))
@@ -170,7 +170,7 @@ public class Collisions : MonoBehaviour
 
     }
 
-    public void Flip()
+    public void Flip(bool IsFacingRight)
     {
         Vector2 newScale = meshTransform.localScale;
         newScale.x *= -1;
@@ -227,11 +227,11 @@ public class Collisions : MonoBehaviour
         }
     }
 
-    void Flip(bool face)
+    /*void Flip(bool face)
     {
         //if(face) sideBoxPos.x = Mathf.Abs(sideBoxPos.ps);
         //else()
-    }
+    }*/
 
     private void OnDrawGizmosSelected() //Aparecerá el gizmo solo cuando lo selecionamos
     {
